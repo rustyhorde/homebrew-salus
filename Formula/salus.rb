@@ -2,12 +2,12 @@ class Salus < Formula
   desc "Local secret store guarded by Shamir secret shares and AES-256-GCM encryption"
   homepage "https://github.com/rustyhorde/salus"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.1.3"
+  version "0.2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/rustyhorde/salus/releases/download/v0.1.3/salus-aarch64-apple-darwin.tar.gz"
-      sha256 "ce03aa8d0fefd4df71a2408208746561a544a05449e14f84ec7128851916f24e"
+      url "https://github.com/rustyhorde/salus/releases/download/v0.2.0/salus-aarch64-apple-darwin.tar.gz"
+      sha256 "771f38b897146bcde0f3fceeb9e9e801687eb3c91b91bb4cc7365fbfebd08570"
     end
   end
 
